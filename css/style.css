@@ -1,0 +1,40 @@
+#head
+	{text-align:center;
+	margin:40px;
+	animation:mymove 2s infinite;
+	}
+	
+@keyframes mymove 	
+	{10% {color:#22AE43;}
+	}
+
+.container
+	{display:flex;
+	}
+	
+.imp1
+	{background-image:conic-gradient(#BD87BA,#22AEA4,#22AE43);
+	border-radius:10px;
+	}
+	
+.imp2
+	{background-image:linear-gradient(to right,rgb(34, 174, 81),rgb(164, 34, 174));
+	margin-left:20px;
+	margin-right:20px;
+	border-radius:10px;
+	}
+	
+.imp3	
+	{background-image:linear-gradient(to left,hsl(358, 67%, 41%),hsl(148, 67%, 41%));
+	border-radius:10px;
+	}
+	
+.imp1,.imp2,.imp3
+	{font-family:Cursive;
+	}
+	
+.tittle
+	{font-family:fangsong;
+	text-align:center;
+	}
+	
